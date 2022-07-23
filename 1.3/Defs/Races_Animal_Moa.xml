@@ -24,6 +24,24 @@
 		<TropicalRainforest>0.25</TropicalRainforest> <!-- 1/2 as common as cassowaries -->
 		<AridShrubland>0.35</AridShrubland> <!-- half as common as emus -->
 	  </wildBiomes>
+	  <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Chick_Call</soundWounded>
+          <soundDeath>Pawn_Chick_Call</soundDeath>
+          <soundCall>Pawn_Chick_Call</soundCall>
+          <soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.2222</minAge>
+        </li>
+      </lifeStageAges>
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
@@ -93,7 +111,7 @@
     <label>moa</label>
     <race>Moa</race>
 		<combatPower>50</combatPower>
-		<lifeStages>
+	<lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Moa_Serpy/moa</texPath>
